@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section className='pt-4  cont relative overflow-hidden pb-32 border-b border-gray-200'>
     <div className='h-[70px] w-[70px]  mr-[15%] md:mr-[20%] ml-auto mb-4'>
-        <Balls/>
+      <Balls/>
     </div>
         <div className='md:flex items-center'>
             <div>
@@ -34,5 +34,5 @@ export default function Hero() {
         </div>
         <div className='absolute h-[180px] -z-10 w-[180px] rounded-full -right-10 top-[25%] opacity-40 md:opacity:100 sm-shadow'> <Balls/></div>
     </section>
-  )
+  );
 }

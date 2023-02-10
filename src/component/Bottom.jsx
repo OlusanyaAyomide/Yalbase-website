@@ -4,9 +4,8 @@ import star from '../assets/star.svg';
 import starOutline from '../assets/star-outline.svg';
 import zigzagLine from '../assets/zigzag-line.svg';
 
-
-export default function LowerBody() {
-  return (
+export default function Bottom(){
+	return(
     <section className="pt-4  cont">
 			<div className='flex flex-row flex-wrap justify-center pb-[8em] border-b-2 border-gray-500/50 mb-[2em]'>
 				<div className='basis-1/2 flex flex-col gap-[2em]'>
@@ -54,5 +53,5 @@ export default function LowerBody() {
 				</div>				
 			</div>
     </section>
-  )
+	)
 }
