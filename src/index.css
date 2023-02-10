@@ -46,16 +46,15 @@ border-radius: 100px;
   line-height: 22px;  
   text-align: center;
   
-}
 
+}
+.input{
+  @apply outline-none placeholder-white/80 my-4 border-solid block w-full bg-transparent border-[0.5px] h-10 rounded-lg border-gray-500/50 px-4 py-4
+}
 .word-wrapping{
   word-wrap: break-word
 }
-.input-shadow{
-  box-shadow: 0px 0px  2px white;
-}
-.sm-shadow{
-  box-shadow: 0px 0px  2px 2px black;
-  filter: blur(10px)
+.blur2{
+  filter: blur(160px)
 }
 @tailwind utilities;

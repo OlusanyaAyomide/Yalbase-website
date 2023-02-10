@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FormInput() {
   return (
-    <div className='my-4 md:w-[60%] lg:w-[50%] mx-auto pt-4 w-[80%]'>
+    <div className='my-4 md:w-[60%] lg:w-[50%] mx-auto  w-[80%] pt-16'>
         <div className='my-2 relative'>
             <input type="text" className='py-3 px-4 pl-12 bg-transparent border border-white w-full input-shadow outline-none rounded-lg' placeholder='Tell us your name '/>
             <span className='absolute left-4 text-lg top-[20%] fa fa-user outline-none '></span>
