@@ -15,10 +15,12 @@ export default function Hero() {
             </div>
         <div className='w-full relative'>
             <h1 className='text-center text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-extrabold lg:mx-8'>Turn Your best customers into <span className='whitespace-nowrap text-[#A75FD2]'>Loyal fans</span></h1>
-            <div className='absolute w-[50%] h-[140%] opacity-40 left-[25%] -bottom-[20%] md:drop2 drop bg-[#A75FD2] rounded-[40%]'>
-                
+            <div className='absolute w-[50%] h-[140%] opacity-40 left-[25%] -bottom-[20%] md:drop2 drop bg-[#A75FD2] rounded-[40%]'>   
            </div>
         </div>
+        </div>
+        <div className='md:ml-[160px] text-gray-900'>
+
         </div>
     
     </section>
