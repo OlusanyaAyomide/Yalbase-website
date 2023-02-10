@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+
+:root{
+  @apply font-noto text-sm bg-darkblue
+}
+
+
+button{
+  outline: none;
+}
+.cont{
+  @apply px-4 md:px-4 lg:px-5
+}
+.white-line{
+  @apply absolute h-full w-1 bg-white -left-2
+}
+.love-gradient{
+  @apply text-transparent text-8xl bg-clip-text bg-gradient-to-br from-myblue to-mypink
+}
+.red-grad{
+  background: radial-gradient(at right,#BF3579, #601aa2);
+  /* background:#BF3579 ;
+  opacity:0.; */
+  filter:blur(15px)
+}
+.drop{
+  filter: blur(50px)
+}
+.drop2{
+  filter: blur(80px)
+}
+
+@tailwind utilities;
