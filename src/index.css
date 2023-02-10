@@ -9,6 +9,11 @@
 button{
   outline: none;
 }
+
+.button-grad{
+background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
+border-radius: 100px;
+}
 .cont{
   @apply px-4 md:px-4 lg:px-5
 }
@@ -30,5 +35,11 @@ button{
 .drop2{
   filter: blur(80px)
 }
-
+.input-shadow{
+  box-shadow: 0px 0px  2px white;
+}
+.sm-shadow{
+  box-shadow: 0px 0px  2px 2px black;
+  filter: blur(10px)
+}
 @tailwind utilities;
