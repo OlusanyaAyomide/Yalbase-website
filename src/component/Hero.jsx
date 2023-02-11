@@ -1,6 +1,5 @@
 import React from 'react'
 import Balls from './Balls'
-import { Text } from './xAnimation'
 import FormInput from './FormInput'
 import line from "../assets/line.svg"
 import star from "../assets/star.svg"

@@ -10,7 +10,7 @@ export default function Lower() {
     <section className='cont flex flex-wrap items-center mb-16 ,mt-8 relative ' >
         <div className='w-full md:w-6/12 pr-4'>
             <div className='relative'>
-                <h1 className='text-center text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-extrabold lg:mx-8'>Piority Access</h1>
+                <h1 className='text-center text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-extrabold lg:mx-8'>What we do</h1>
                 <div className=' flex justify-center pt-4'>
                     <img src={zigxag} alt="line" className='h-20 sm:h-40 w-20 sm:w-60 relative -top-5'/>
                     <img src={star} alt="stars" className='absolute -top-20 h-12 left-20 w-12'/>
