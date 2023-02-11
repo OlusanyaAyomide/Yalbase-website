@@ -29,7 +29,7 @@ export default function Hero({setisPoppedUp}) {
         </div>
         <div className='md:ml-[160px]  relative  text-gray-300 text-sm mt-4 mb-4 leading-6'>
             <img src={line} alt="img"  className='absolute right-4 md:right-8 top-40 md:top-20 -z-10 opacity-50 md:opacity-100'/>
-            <div className='relative lg:first-letter:right-28'>
+            <div className='relative lg:right-28'>
               <span className='lg:block lg:text-center lg:tracking-wider lg:text-lg'>Get ready to revolutionize the way you interact with your customers and drive sales with</span>
               <span className='lg:block lg:text-center lg:tracking-wider lg:text-lg'>Loyalbeze,join the waiting list now to be among the first to experience the future of</span>
               <span className='lg:block lg:text-center lg:tracking-wider lg:text-lg'>Customer loyally</span>
