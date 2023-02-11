@@ -29,7 +29,7 @@ export default function Lower() {
         <img src={star} alt="stars" className='absolute bottom-16 h-12 left-[360px] w-12 z-10'/>
         <div className='w-full md:w-6/12 sm:w-10/12 mx-auto md:pt-12 '>
             <form action="#" className='bg-[#1D2939] rounded-lg px-4 py-12 mt-8 lg:w-10/12'>
-                <input type="text" className='input' placeholder='Enter your full name rounded-lg'/>
+                <input type="text" className='input' placeholder='Enter your full name'/>
                 <input type="text" className='input' placeholder='Enter your Work Email'/>
                 <input type="text" className='input' placeholder='Mobole Number'/>
                 <input type="text" className='input' placeholder='Company Name'/>
