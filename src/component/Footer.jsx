@@ -2,7 +2,8 @@ import React from 'react'
 import { FooterText } from './xAnimation'
 export default function Footer() {
   return (
-    <section className='flex md:flex-row flex-col items-center cont py-3 text-xs text-gray-300'>
+    <section className='flex md:flex-row  flex-col items-center cont py-3 text-xs text-gray-300'>
+          <div className='border-t h-4 bg-rd-500 border-gray-200/50 mx-16 w-full'></div>
         <div className='w-full md:w-4/12  pr-4 flex items-center'>
             <span className='fa fa-home mr-4'></span>
             <p >{FooterText}</p>
@@ -10,6 +11,9 @@ export default function Footer() {
         <div className='flex justify-between items-center w-full md:w-8/12 mt-4 md:mt-0'>
         <p className=''>Loyalbaze is almost here</p>
         <p className='fa fa-phone mr-2 text-xs'>+234 903 618 9485</p>
+        </div>
+            <div className='border-b border-gray-200/50 mx-16'>
+
         </div>
     </section>
   )

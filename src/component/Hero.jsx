@@ -33,9 +33,6 @@ export default function Hero() {
             <FormInput/>
         </div>
         <div className='absolute h-[180px] -z-10 w-[180px] rounded-full -right-10 top-[25%] opacity-40 md:opacity:100 sm-shadow'> <Balls/></div>
-        <div className='border-b border-gray-200/50 mx-16'>
-
-        </div>
     </section>
   );
 }
