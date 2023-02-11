@@ -1,17 +1,19 @@
 import Footer from "./component/Footer"
 import Header from "./component/Header"
 import Hero from "./component/Hero"
-import LowerBody from "./component/LowerBody"
 import Lower from "./component/Lower"
+import PopUp from "./component/PopUp"
+import { useState } from "react"
 function App() {
 
-
+  const [ispoppedUp,setisPoppedUp] = useState(false)
   return (
     <div className="text-white" >
      <Header/>
-     <Hero/>
+     <Hero setisPoppedUp = {setisPoppedUp}/>
      <Lower/>
-     <Footer/>
+     <Footer />
+     {ispoppedUp && <PopUp setIsPoppedUp={setisPoppedUp}/>}
     </div>
   )
 }

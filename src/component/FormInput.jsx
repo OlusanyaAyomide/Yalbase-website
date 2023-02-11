@@ -1,7 +1,7 @@
 import React from 'react'
 import { iconText } from './xAnimation'
 
-export default function FormInput() {
+export default function FormInput({setIsPoppedUp}) {
   const icons = iconText.map((item,key)=>{
     console.log(key)
     return(<span className={`${key === 0 || key === 2?"bg-myblue":"bg-mypink"} rounded-full text-xl flex items-center justify-center h-9 w-9 relative right-${key}`} key={key}>{item}</span>)
@@ -17,7 +17,7 @@ export default function FormInput() {
             <span className='absolute left-4 text-lg top-[23%] fa fa-envelope outline-none '></span>
         </div>
         <div className='my-6'>
-            <button className='block py-2 w-full rounded-[200px] button-grad'>Get early access</button>
+            <button className='block py-2 w-full rounded-[200px] button-grad' onClick={()=>{setIsPoppedUp(true)}}>Get early access</button>
             <div className='mt-2 flex justify-center py-2 w-full items-center' >
               {icons}
               <span className='ml-1'>+27 joined</span>

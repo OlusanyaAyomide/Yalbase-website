@@ -8,7 +8,7 @@ export const BallAnimation ={
         left:"100%",
         transition:{
             ease:"linear",
-            duration:10,
+            duration:6,
             repeat:Infinity,
             repeatDelay:1,
 
@@ -28,3 +28,4 @@ in touch Immediately!`
 export const iconText=[
     "Q","O","U","U"
 ]
+export const popUptext = "Great move! You're one step closer to getting your hands on the product. Please check your mail for more information."
