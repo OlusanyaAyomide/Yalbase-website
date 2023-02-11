@@ -33,6 +33,7 @@ export default function LowerBody() {
 				</div>
 				<div className=" bg-red-500">
 					<div className='w-11/12 py-2 px-6 mx-auto my-2 rounded-xl bg-[#1D2939]'>
+						
 						<div>
 							<h2 className='text-base  mb-10'>Book a Consultation with us</h2>
 							<div className='flex flex-col gap-7'>

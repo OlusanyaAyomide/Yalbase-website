@@ -18,7 +18,7 @@ export default function Lower() {
                 </div>
                 <div className='absolute bg-[#AB35CF] h-[70%] w-[30%] right-[20%] blur2'>
                 </div>
-                <p className='text-sm mt-4 mb-4 leading-6 relative -top-2'>{Lowertext}</p>
+                <p className='text-sm mt-4 mb-4 lg:px-16 lg:text-base lg:tracking-wider leading-6 relative -top-2 text-gray-300'>{Lowertext}</p>
             </div>
         </div>
         <div className='absolute left-2 top-4 w-[60px] h-[60px]'>
@@ -28,7 +28,8 @@ export default function Lower() {
         <img src={outline} alt="dtsar" className='absolute left-10 bottom-2'/>
         <img src={star} alt="stars" className='absolute bottom-16 h-12 left-[360px] w-12 z-10'/>
         <div className='w-full md:w-6/12 sm:w-10/12 mx-auto md:pt-12 '>
-            <form action="#" className='bg-[#1D2939] rounded-lg px-4 py-12 mt-8 lg:w-10/12'>
+            <form action="#" className='bg-[#1D2939] rounded-lg px-6 lg:px-8 py-5 mt-8 lg:w-10/12'>
+                 <h1 className='mb-4 font-bold text-lg'>Book a Consultation with us</h1>
                 <input type="text" className='input' placeholder='Enter your full name'/>
                 <input type="text" className='input' placeholder='Enter your Work Email'/>
                 <input type="text" className='input' placeholder='Mobole Number'/>
@@ -37,6 +38,7 @@ export default function Lower() {
 					<option value="null">Select a country</option>
 				</select>
             <textarea placeholder="Drop a message..." cols="30" rows="6" className='input h-40'></textarea>
+            <button className='block mt-8 mb-4 py-2 w-full rounded-[200px] button-grad'>Send Address</button>
             </form>
         </div>
     </section>
